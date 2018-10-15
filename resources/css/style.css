@@ -1,10 +1,5 @@
 body {
-    font-family: arial, helvetica;
-    /*background-color: rgba(241, 171, 154, 0.3);
-    background-image: url("../images/saltblockwall.jpg");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5;*/
+    font-family: "queen regular", arial, helvetica;
 }
 
 /* HEADER */
@@ -14,11 +9,9 @@ header {
     width: 100%;
     position: fixed;
     z-index: 10;
-    /*background-color:rgba(224, 103, 17, 0.986);*/
     background-image: url("../images/saltrock.jpg");
     background-size: cover;
     background-position: center;
-    /*opacity: 0.99;*/
     font-weight: bold;
 }
 .heading {
@@ -30,7 +23,7 @@ header {
     justify-content: space-between;
 }
 .heading .logo {
-    /*border:2px yellow solid;*/
+    border:2px yellow solid;
     width: 200px;
     height: 68px;
     position: relative;
@@ -69,9 +62,10 @@ header {
     background-position: center;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 .bannersplash {
-    /*border: 2px red solid;*/
+    border: 2px red solid;
     width: 45vw;
     height: 135px;
     position: relative;
@@ -79,6 +73,18 @@ header {
     left: 26.5vw;
     background-color: rgba(241, 171, 154, 0.99);
     border-radius:15px;
+    display: flex;
+    flex-direction: column;
+
+    
+    font-weight: bold;
+    
+}
+.bannersplash .bannertext{
+    border: 1px yellow solid;
+    height: 80px;
+    width: 100%;
+    font-size: 4vw;
 }
 
 /* CONTENT */
